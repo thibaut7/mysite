@@ -1,1 +1,11 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+theme = 'archie'
 
+[build]
+  command = "hugo"
+  publish = "public"
+
+[context.production.environment]
+  HUGO_VERSION = '0.143.1'
